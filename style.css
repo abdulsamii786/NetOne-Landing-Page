@@ -1,0 +1,373 @@
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(./assets/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: Rubik-SemiBold;
+  src: url(./assets/fonts/Rubik/static/Rubik-SemiBold.ttf);
+}
+body {
+  font-family: Rubik-Regular;
+  color: var(--black-color);
+}
+:root {
+  --primary-color: #3878ff;
+  --black-color: #0b132a;
+  --gray-color: #4f5665;
+  --light-gray: #afb5c0;
+}
+a {
+  text-decoration: none !important;
+}
+li {
+  list-style: none !important;
+}
+.padding {
+  padding: 10px;
+}
+.navbar {
+  margin-top: 30px;
+  background-color: #fff;
+}
+.navbar-collapse ul li a {
+  color: var(--gray-color);
+  padding: 0px 20px !important;
+  transition: 0.2s;
+}
+.navbar-collapse ul li a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.navbar-text li a {
+  font-weight: 600;
+  transition: 0.2s;
+}
+.navbar-text li a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.navbar-text:first-child {
+  color: var(--black-color);
+}
+.button a {
+  color: var(--primary-color);
+  border-radius: 50px;
+  margin: 0px 30px;
+  padding: 5px 30px;
+  transition: 0.2s;
+
+  border: 1px solid var(--primary-color);
+}
+.button a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  border: 1px solid var(--primary-color);
+  transition: 0.3s;
+}
+
+/* ============hero============= */
+
+.hero {
+  margin-top: 50px;
+}
+.hero .text h1 {
+  font-size: 60px;
+  margin-top: 80px;
+}
+.hero .text p {
+  margin-top: 40px;
+  color: var(--gray-color);
+}
+.hero .text p span {
+  font-weight: 600;
+}
+.hero .text a {
+  margin-top: 30px;
+  background-color: var(--primary-color);
+  padding: 10px 50px;
+  font-weight: 500;
+  box-shadow: var(--primary-color) 0px 20px 80px -10px;
+  color: #fff;
+  transition: 0.5s;
+}
+.hero .text a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.text h1 span {
+  font-weight: 800;
+}
+
+/* ==================hero2================= */
+
+.hero2 {
+  margin-top: 100px;
+  font-weight: 500;
+}
+.hero2 .text {
+  margin-left: 30px;
+}
+.hero2 h4 {
+  font-weight: 600;
+}
+.hero2 p {
+  color: var(--gray-color);
+}
+.hero2 .user {
+  width: 300px;
+}
+.hero2 .user-middle {
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
+}
+.image img {
+  border: unset;
+}
+
+/* ==================features================== */
+
+.features {
+  margin-top: 90px;
+}
+.features .text h4 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.features .text p {
+  margin-top: 30px;
+}
+.features ul li {
+  background-image: url(./assets/imgs/bx_bxs-check-circle.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  margin-top: 20px;
+}
+.features ul {
+  padding: unset !important;
+  margin-top: 30px;
+}
+
+/* ==============cards============= */
+.cards {
+  margin-top: 80px;
+}
+.cards .heading h4 {
+  color: var(--black-color);
+  font-size: 35px;
+  font-weight: 600;
+}
+.cards .heading p {
+  color: var(--gray-color);
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.my-card {
+  border: 2px solid #dddddd;
+  margin: 10px 30px;
+  height: 770px;
+  border-radius: 10px;
+  position: relative;
+  width: 300px;
+}
+.my-card .image {
+  margin-top: 80px;
+}
+.my-card .text {
+  margin-bottom: 80px;
+}
+.my-card .text-wrapper h4,
+.my-card .text-wrapper p {
+  display: inline-block;
+}
+.cards .text li {
+  background-image: url(./assets/imgs/jam_check.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  margin: 20px 0px;
+}
+.cards .text h4 {
+  text-align: center;
+}
+.cards ul li {
+  margin: auto;
+}
+.my-card .text-wrapper {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.my-card .text-wrapper h4 {
+  font-weight: 600;
+}
+.my-card .btn-wrapper a {
+  color: var(--primary-color);
+  font-weight: 600;
+  border-radius: 50px;
+  margin: 0px 30px;
+  padding: 5px 60px;
+  transition: 0.2s;
+  border: 1px solid var(--primary-color);
+}
+.btn-wrapper a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  border: 1px solid var(--primary-color);
+  transition: 0.3s;
+}
+#premium a {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+/* ==================network============== */
+
+.network {
+  margin-top: 60px;
+}
+.network .heading p {
+  color: var(--gray-color);
+}
+.network .heading h4 {
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.network .heading p {
+  margin-top: 30px;
+}
+.network .heading .Net {
+  font-weight: 400;
+}
+.network .heading .One {
+  font-weight: bolder;
+}
+.network .heading p span {
+  font-weight: 600;
+}
+.network .image {
+  margin-top: 50px;
+}
+.network .imgs-wrapper .col-md-12 img {
+  border: unset;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 0px 20px;
+}
+
+/* ===========reviews======== */
+
+.reviews {
+  margin-top: 30px;
+}
+.reviews .heading h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.reviews .text {
+  margin-left: 20px;
+}
+.reviews .text h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.reviews .text p {
+  margin: 0;
+}
+.reviews .heading p {
+  margin-top: 30px;
+  color: var(--gray-color);
+}
+.reviews .review-card {
+  width: 350px;
+}
+.rating {
+  margin-left: 60px;
+}
+.rating p {
+  margin: 0;
+  margin-right: 10px;
+}
+.rating img {
+  border: unset;
+}
+.client-review {
+  display: block !important;
+}
+
+/* ==========footer============= */
+.footer {
+  margin: 50px 10px;
+}
+.footer .col-md-6 img {
+  border: unset;
+  margin-bottom: 20px;
+}
+.footer .social img {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  border: unset;
+}
+.footer p {
+  color: var(--gray-color);
+  transition: 0.2s;
+}
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.footer .col-md-6 :nth-child(4) {
+  color: var(--light-gray);
+}
+.footer a p:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  transform-origin: left;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 40px !important;
+    margin-top: unset !important;
+  }
+  h4 {
+    font-size: 30px !important;
+    margin: unset;
+  }
+  .navbar {
+    margin-top: unset;
+  }
+
+  .features,
+  .cards {
+    margin-top: 10px;
+  }
+  .cards .heading p {
+    margin-bottom: 10px;
+  }
+  .my-card {
+    height: 650px;
+  }
+  .my-card .image {
+    margin-top: 10px;
+  }
+  .user{
+    width: 600px !important;
+    margin-top: 10px;
+  }
+.user-middle{
+    border-left: unset !important;
+    border-right: unset !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer .col-md-6,
+  .footer .col-md-2 {
+    text-align: center;
+  }
+}
